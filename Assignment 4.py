@@ -161,15 +161,15 @@ class Employee(Person):
         self.staffnumber = staffnum
     def GetEmployee(self):
         return self.Name() + ", " + self.staffnumber
-x = Person("komal", "addanki")
-y = Employee("komal", "addanki", "111")
+x = Person("Gagan", "deep")
+y = Employee("Gagan", "deep", "111")
 print(x.Name())
 print(y.GetEmployee())
 
 # output
 """C:\python310\python.exe C:/Users/DELL/PycharmProjects/PYTHON/assignment4.py
-komal addanki
-komal addanki, 111
+Gagan deep
+Gagan deep, 111
 Process finished with exit code 0"""
 
 # ....................................................Example 8.........................................................#
@@ -185,15 +185,15 @@ class Employee(Person):
         self.id = id
  def _str_(self):
         return super()._str_()+" "+self.id
-x = Person("kamalpreet", "gurpreet")
-y = Employee("kamalpreet", "gurpreet", "111")
+x = Person("Gagan", "deep")
+y = Employee("Gagan", "deep", "111")
 print(x)
 print(y)
 
 # output
 """C:\python310\python.exe C:/Users/DELL/PycharmProjects/PYTHON/assignment4.py
-kamalpreet gurpreet
-kamalpreet gurpreet 111
+Gagan deep
+Gagan deep 111
 Process finished with exit code 0"""
 
 # ....................................................Example 9.........................................................#
